@@ -1,6 +1,38 @@
-# React + TypeScript + Vite
+# React + TypeScript + Vite + Tailwind CSS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This template provides a minimal setup to get React working in Vite with HMR, ESLint rules, and Tailwind CSS for styling.
+
+## Features
+
+- **React 19** with TypeScript
+- **Vite** for fast development and building
+- **Tailwind CSS** for utility-first styling
+- **React Flow** for node-based workflows
+- **ESLint** for code quality
+
+## Tailwind CSS Setup
+
+This project includes Tailwind CSS v3.4.0 configured with:
+
+- **PostCSS** for processing
+- **Autoprefixer** for vendor prefixes
+- **Content scanning** for `./index.html` and `./src/**/*.{js,ts,jsx,tsx}`
+
+### Configuration Files
+
+- `tailwind.config.js` - Tailwind CSS configuration
+- `postcss.config.js` - PostCSS configuration
+- `src/index.css` - Contains Tailwind directives (imported in `main.tsx`)
+
+### Usage
+
+You can now use Tailwind CSS classes in any component:
+
+```tsx
+<div className="bg-blue-500 text-white p-4 rounded-lg shadow-md">
+  <h1 className="text-2xl font-bold">Hello Tailwind!</h1>
+</div>
+```
 
 Currently, two official plugins are available:
 
